@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testing/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node testing/server.js"
+  },
+  "dependencies": {
+    "basetag": "^2.0.1",
+    "express": "^4.16.1",
+    "gl": "^4.9.0",
+    "lodash": "^4.17.21",
+    "sharp": "^0.27.2",
+    "three": "^0.126.1",
+    "three-universal": "^0.125.2"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,28 @@
+### API :
+- GET
+    - /api/sensors
+    - /stream/mjpeg
+    - /stream/jpg
+- PUT
+  - Orientation <float\>
+    - /api/drone/orientation/x
+    - /api/drone/orientation/y
+    - /api/drone/orientation/z
+  - Position <float\>
+    - /api/drone/position/x
+    - /api/drone/position/y
+    - /api/drone/position/z
+  - Speed <float\>
+    - /api/drone/speed
+  - Processing Type <bool\> { 0 - external image processing (default), 1 - internal -||- }
+    - /api/processing
+  - ID <int\>
+    - /api/id
+  - Kafka ulr <string\>
+    - /api/kafka/url
+  - Kafka produce <bool\> { start sending data to kafka 0/1 }
+    - /api/kafka/produce
+  - MasterController ulr <string\>
+    - /api/master/url
+  - Data format :
+    - json...{val: \<value\>}
